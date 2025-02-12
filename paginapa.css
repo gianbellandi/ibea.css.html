@@ -1,0 +1,273 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#body {
+
+    background-color: #221F4F;
+
+}
+
+* #header {
+
+    width: 100%;
+    height: 110px;
+    /* position: fixed; */
+
+}
+
+#logodiv {
+
+    width: 128px;
+    height: 128px;
+
+
+}
+
+#logodivnav {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#nav {
+
+    width: 100%;
+    height: 100px;
+    background-color: #ede0d4;
+    position: relative
+}
+
+#navdiv {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+
+}
+
+#parte1 {
+
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 100px;
+
+}
+
+#parte2 {
+
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+
+}
+
+#nav2 {
+
+    width: 100%;
+    height: 110px;
+    background-color: #ede0d4;
+    display: flex;
+
+}
+
+#item {
+
+    letter-spacing: 0.2px;
+
+}
+
+#navitems {
+
+    text-decoration: none;
+    color: #221F4F;
+    font-size: 18px;
+    font-family: "Mona Sans", serif;
+    font-weight: 600;
+
+}
+
+#botton {
+
+    background-color: #ede0d4;
+    border-radius: 0%;
+    border: 0%;
+
+}
+
+#dropdownmenu {
+
+    background-color: #ede0d4;
+
+}
+
+#dropitem {
+
+    font-size: 16px;
+    font-family: "Mona Sans", serif;
+    font-weight: 500;
+
+}
+
+#dropitem:hover {
+
+    background-color: #cecece;
+
+
+}
+
+#textherodiv {
+
+    margin-left: 9%;
+    margin-top: 110px;
+    width: 40%;
+    height: 480px;
+
+}
+
+#heromaintext {
+
+    font-size: 67px;
+    font-family: "Mona Sans", serif;
+    font-weight: 900;
+    color: #ede0d4;
+    letter-spacing: -1.5px;
+}
+
+#subtexthero {
+
+    font-size: 20px;
+    font-family: "Mona Sans", serif;
+    font-weight: 550;
+    color: #ede0d4;
+    margin-top: 15px;
+
+}
+
+#ctadiv {
+    margin-top: 13px;
+}
+
+#buttoncta1 {
+
+    width: 153px;
+    height: 52px;
+    margin-top: 8px;
+    background-color: #ede0d4;
+    border: 0;
+    border-radius: 70px;
+}
+
+#buttoncta2 {
+
+    width: 153px;
+    height: 52px;
+    margin-top: 8px;
+    background-color: #ede0d4;
+    border: 0;
+    border-radius: 70px;
+
+}
+
+#buttoncta1 {
+    margin-right: 10px;
+}
+
+#buttoncta1:hover,
+#buttoncta2:hover {
+    background-color: #221F4F;
+    border: 2px solid #ede0d4;
+}
+
+/* Cambio de color de la letra al pasar el mouse */
+#buttoncta1:hover .ctah1,
+#buttoncta2:hover .ctah1 {
+    color: #ede0d4;
+}
+
+.ctah1 {
+
+    font-size: 15px;
+    font-family: "Mona Sans", serif;
+    font-weight: 800;
+    color: #221F4F;
+    margin-top: 7px;
+
+}
+
+
+#navitems:hover {
+
+    text-decoration: underline;
+
+}
+
+#sobrenosotros {
+
+    width: 100%;
+    height: 600px;
+    margin-top: 212.5px;
+    background-color: red;
+
+
+}
+
+#divsb {
+
+    margin-left: 9%;
+    background-color: burlywood;
+    height: 50%;
+    margin-top: 150px;
+
+}
+
+#h1sbdiv {
+
+    margin-top: 3%;
+    width: 332.84px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#h1sb {
+
+    font-size: 47px;
+    font-family: "Mona Sans", serif;
+    font-weight: 800;
+    color: #ede0d4;
+    letter-spacing: -1.5px;
+
+}
+
+#servicios {
+
+    width: 100%;
+    height: 600px;
+
+
+}
+
+#divservicios {}
+
+#h1serviciosdiv {}
+
+#h1servicios {}
